@@ -3,7 +3,7 @@
 import scraper
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 import logging
-updater = Updater(token='407075567:AAH5LJy0RY5ap7ldRKSChO2EM9CeckS9YG8')
+updater = Updater(token='REDACTED')
 
 dispatcher = updater.dispatcher
 
