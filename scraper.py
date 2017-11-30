@@ -19,6 +19,8 @@ def get_quote():
 
     quotes = soup.findAll('q')
 
-    return random.choice(quotes)
+    final_quote = random.choice(quotes)
+
+    return final_quote.string
 
 print(get_quote())
