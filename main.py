@@ -11,8 +11,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
 
 
 def start(bot, update):
-    bot.send_message(chat_id=update.message.chat_id, text="Bienvenue ! Type '/cite' to get a French quote! You'll get "
-                                                          "a new quote every six hours!")
+    bot.send_message(chat_id=update.message.chat_id, text="Bienvenue ! Type '/cite' to get a French quote!")
 
 
 def quote(bot, update):
